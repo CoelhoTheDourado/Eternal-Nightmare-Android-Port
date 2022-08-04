@@ -1,0 +1,178 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Sonic idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				-19
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "MISS Sonic down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				5
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "MISS Sonic up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				36,
+				5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "MISS Sonic left"
+		},
+		{
+			"offsets": [
+				-9,
+				3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "MISS Sonic right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				3,
+				-1
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "GAME OVER",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-2,
+				-8
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "GAME OVER loop",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				-4
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "GAME OVER enter",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-9,
+				3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			],
+			"name": "MISS Sonic right"
+		},
+		{
+			"offsets": [
+				37,
+				8
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "MISS Sonic left"
+		},
+		{
+			"offsets": [
+				-4,
+				-17
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "MISS Sonic down"
+		},
+		{
+			"offsets": [
+				-13,
+				7
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "MISS Sonic up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/godammit sonic sing it right",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "freaked sonic icons",
+	"flip_x": true,
+	"healthbar_colors": [
+		40,
+		66,
+		137
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
